@@ -32,6 +32,7 @@ include('phpFiles/session.php');
                         <div id="err"></div>
                         <form id="postForm" method="post" enctype="multipart/form-data">
                             <div class="postSubDivs">
+                                <textarea id="postText" name="postText" placeholder="Write your thoughts..."></textarea>
                             </div>
 
                             <div style="padding: 5px;">

@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+h1 {
+    color: goldenrod;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#form {
+    padding: 200px;
+    text-align: center
+}
+
+#images {
+    display: none;
+}
+
+#gameOn {
+    display: none;
+}
+
+#beginPage {
+    height: 630px;
+    width: 100%;
+    background-image: url("images/bg.png");
+    display: inline-block;
+}
+
+#canvas {
+    display: none;
+}
